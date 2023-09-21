@@ -2,7 +2,7 @@ package ultima.com.backend.crm.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import ultima.com.backend.crm.model.Cliente;
+import ultima.com.backend.crm.models.Cliente;
 import ultima.com.backend.crm.repository.ClienteRepository;
 
 import java.util.List;
