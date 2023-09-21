@@ -1,11 +1,8 @@
-package ultima.com.backend.crm.model;
+package ultima.com.backend.crm.models;
 
 import jakarta.persistence.*;
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
+import lombok.Data;
+@Data
 @Entity
 public class Cliente {
     @Id
